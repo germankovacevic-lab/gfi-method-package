@@ -5,6 +5,7 @@ version: 1.0.0
 date-released: "TO-BE-SET-ON-PUBLICATION"
 doi: "10.5281/zenodo.23017740"
 url: "https://geofuego.com.ar"
+repository-code: "https://github.com/germankovacevic-lab/gfi-method-package"
 license: CC-BY-4.0
 authors:
   - family-names: Kovacevic

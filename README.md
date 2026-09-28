@@ -1,5 +1,13 @@
 # The GeoFuego Index (GFI) — method package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23017740.svg)](https://doi.org/10.5281/zenodo.23017740)
+
+- **Citable deposit (frozen):** https://zenodo.org/records/23017740 · DOI `10.5281/zenodo.23017740`
+- **Code repository (this package):** https://github.com/germankovacevic-lab/gfi-method-package
+- **Live product:** https://geofuego.com.ar · **Public API:** https://ingesta.geofuego.com.ar/api/enso
+- **Manuscript:** "The GeoFuego Index (GFI): an operational seasonal fire-risk indicator combining ENSO phase and zone-level accumulated drought" — submitted to *Natural Hazards and Earth System Sciences* (NHESS); this deposit is its code and data companion.
+- **How to cite:** see `CITATION.cff` (GitHub renders it as a "Cite this repository" button).
+
 Contents:
 
 **Note**
