@@ -1,8 +1,9 @@
 # The GeoFuego Index (GFI) — method package
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23017740.svg)](https://doi.org/10.5281/zenodo.23017740)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23987348.svg)](https://doi.org/10.5281/zenodo.23987348)
 
-- **Citable deposit (frozen):** https://zenodo.org/records/23017740 · DOI `10.5281/zenodo.23017740`
+- **This version (1.1.0):** DOI `10.5281/zenodo.23987348` — adds `territories/indonesia/`, the transfer of the method to a second territory.
+- **All versions (concept DOI):** `10.5281/zenodo.23017739` · version 1.0.0 (Argentina, frozen with the manuscript): `10.5281/zenodo.23017740`
 - **Code repository (this package):** https://github.com/germankovacevic-lab/gfi-method-package
 - **Live product:** https://geofuego.com.ar · **Public API:** https://ingesta.geofuego.com.ar/api/enso
 - **Manuscript:** "The GeoFuego Index (GFI): an operational seasonal fire-risk indicator combining ENSO phase and zone-level accumulated drought" — submitted to *Natural Hazards and Earth System Sciences* (NHESS); this deposit is its code and data companion.
@@ -32,6 +33,9 @@ Contents:
 - `08_ventana_por_region.py` — seasonal distribution of fire by region; the basis of limitation 1b (VIIRS-only, scope declared in its header) (MIT)
 - `09_loyo_dc.py` — leave-one-year-out validation of the drought term: pooled variants and the per-year skill table of §4 (MIT)
 - `10_loyo_enso_ventana.mjs` — leave-one-year-out of the ENSO term (25 folds) and the 6/8/10% window-sensitivity sweep of §6.1b (MIT)
+
+**Second territory — `territories/indonesia/` (new in 1.1.0)**
+- The same method applied **without tuning** to Sumatra and Kalimantan (15 provinces, 75 fire zones): zones, seasons, ENSO factors and drought thresholds derived from Indonesia's own data; the only declared choices (provinces, regions, local-noon time zone) are fixed in `territorio.py` before any result. Two standard physical adaptations: equatorial FWI day-length factors and local noon. Scripts `01`–`09`, every derived artefact, an Indian Ocean Dipole control and the 2026 season as an out-of-sample test. See its `README.md` and `DATOS.md`. Public panel: https://geofuego.com.ar/indonesia
 
 **Supporting data**
 - `historico.json` — monthly VIIRS detection series, country and 24 provinces (CC BY 4.0)

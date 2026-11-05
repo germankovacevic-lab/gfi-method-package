@@ -1,0 +1,506 @@
+{
+ "fuente": "FIRMS VIIRS S-NPP SP (\u22642026-07-31) + NRT (\u22652026-08-01), conf!=l; NRT sin type \u2192 m\u00e1scara de fuentes fijas SP 2012\u20132025",
+ "meses": {},
+ "region": {
+  "territorio": [
+   {
+    "mes": 1,
+    "focos": 3528,
+    "mediana": 1249,
+    "ratio": 2.82,
+    "rank_de_15": 3
+   },
+   {
+    "mes": 2,
+    "focos": 2121,
+    "mediana": 3029,
+    "ratio": 0.7,
+    "rank_de_15": 9
+   },
+   {
+    "mes": 3,
+    "focos": 5276,
+    "mediana": 3928,
+    "ratio": 1.34,
+    "rank_de_15": 6
+   },
+   {
+    "mes": 4,
+    "focos": 1766,
+    "mediana": 2309,
+    "ratio": 0.76,
+    "rank_de_15": 11
+   },
+   {
+    "mes": 5,
+    "focos": 2119,
+    "mediana": 1757,
+    "ratio": 1.21,
+    "rank_de_15": 7
+   },
+   {
+    "mes": 6,
+    "focos": 2350,
+    "mediana": 2424,
+    "ratio": 0.97,
+    "rank_de_15": 9
+   },
+   {
+    "mes": 7,
+    "focos": 8879,
+    "mediana": 7919,
+    "ratio": 1.12,
+    "rank_de_15": 7
+   },
+   {
+    "mes": 8,
+    "focos": 100836,
+    "mediana": 24189,
+    "ratio": 4.17,
+    "rank_de_15": 1
+   },
+   {
+    "mes": 9,
+    "focos": 137857,
+    "mediana": 24436,
+    "ratio": 5.64,
+    "rank_de_15": 3
+   },
+   {
+    "mes": 10,
+    "focos": 121154,
+    "mediana": 9323,
+    "ratio": 13.0,
+    "rank_de_15": 2
+   }
+  ],
+  "SUM-N": [
+   {
+    "mes": 1,
+    "focos": 1362,
+    "mediana": 582,
+    "ratio": 2.34,
+    "rank_de_15": 4
+   },
+   {
+    "mes": 2,
+    "focos": 1228,
+    "mediana": 1791,
+    "ratio": 0.69,
+    "rank_de_15": 10
+   },
+   {
+    "mes": 3,
+    "focos": 2387,
+    "mediana": 2446,
+    "ratio": 0.98,
+    "rank_de_15": 8
+   },
+   {
+    "mes": 4,
+    "focos": 649,
+    "mediana": 1079,
+    "ratio": 0.6,
+    "rank_de_15": 9
+   },
+   {
+    "mes": 5,
+    "focos": 761,
+    "mediana": 665,
+    "ratio": 1.14,
+    "rank_de_15": 6
+   },
+   {
+    "mes": 6,
+    "focos": 381,
+    "mediana": 1194,
+    "ratio": 0.32,
+    "rank_de_15": 12
+   },
+   {
+    "mes": 7,
+    "focos": 792,
+    "mediana": 2709,
+    "ratio": 0.29,
+    "rank_de_15": 13
+   },
+   {
+    "mes": 8,
+    "focos": 2858,
+    "mediana": 2608,
+    "ratio": 1.1,
+    "rank_de_15": 7
+   },
+   {
+    "mes": 9,
+    "focos": 1875,
+    "mediana": 1621,
+    "ratio": 1.16,
+    "rank_de_15": 6
+   },
+   {
+    "mes": 10,
+    "focos": 123,
+    "mediana": 1272,
+    "ratio": 0.1,
+    "rank_de_15": 14
+   }
+  ],
+  "SUM-S": [
+   {
+    "mes": 1,
+    "focos": 375,
+    "mediana": 255,
+    "ratio": 1.47,
+    "rank_de_15": 4
+   },
+   {
+    "mes": 2,
+    "focos": 187,
+    "mediana": 305,
+    "ratio": 0.61,
+    "rank_de_15": 10
+   },
+   {
+    "mes": 3,
+    "focos": 345,
+    "mediana": 296,
+    "ratio": 1.17,
+    "rank_de_15": 6
+   },
+   {
+    "mes": 4,
+    "focos": 239,
+    "mediana": 271,
+    "ratio": 0.88,
+    "rank_de_15": 9
+   },
+   {
+    "mes": 5,
+    "focos": 636,
+    "mediana": 599,
+    "ratio": 1.06,
+    "rank_de_15": 6
+   },
+   {
+    "mes": 6,
+    "focos": 769,
+    "mediana": 523,
+    "ratio": 1.47,
+    "rank_de_15": 5
+   },
+   {
+    "mes": 7,
+    "focos": 1535,
+    "mediana": 986,
+    "ratio": 1.56,
+    "rank_de_15": 7
+   },
+   {
+    "mes": 8,
+    "focos": 11491,
+    "mediana": 2405,
+    "ratio": 4.78,
+    "rank_de_15": 3
+   },
+   {
+    "mes": 9,
+    "focos": 26524,
+    "mediana": 3605,
+    "ratio": 7.36,
+    "rank_de_15": 4
+   },
+   {
+    "mes": 10,
+    "focos": 29809,
+    "mediana": 2508,
+    "ratio": 11.89,
+    "rank_de_15": 2
+   }
+  ],
+  "KAL": [
+   {
+    "mes": 1,
+    "focos": 1791,
+    "mediana": 346,
+    "ratio": 5.18,
+    "rank_de_15": 3
+   },
+   {
+    "mes": 2,
+    "focos": 706,
+    "mediana": 605,
+    "ratio": 1.17,
+    "rank_de_15": 7
+   },
+   {
+    "mes": 3,
+    "focos": 2544,
+    "mediana": 963,
+    "ratio": 2.64,
+    "rank_de_15": 3
+   },
+   {
+    "mes": 4,
+    "focos": 878,
+    "mediana": 768,
+    "ratio": 1.14,
+    "rank_de_15": 5
+   },
+   {
+    "mes": 5,
+    "focos": 722,
+    "mediana": 530,
+    "ratio": 1.36,
+    "rank_de_15": 7
+   },
+   {
+    "mes": 6,
+    "focos": 1200,
+    "mediana": 491,
+    "ratio": 2.44,
+    "rank_de_15": 6
+   },
+   {
+    "mes": 7,
+    "focos": 6552,
+    "mediana": 1873,
+    "ratio": 3.5,
+    "rank_de_15": 5
+   },
+   {
+    "mes": 8,
+    "focos": 86487,
+    "mediana": 12985,
+    "ratio": 6.66,
+    "rank_de_15": 1
+   },
+   {
+    "mes": 9,
+    "focos": 109458,
+    "mediana": 17881,
+    "ratio": 6.12,
+    "rank_de_15": 2
+   },
+   {
+    "mes": 10,
+    "focos": 91222,
+    "mediana": 6241,
+    "ratio": 14.62,
+    "rank_de_15": 2
+   }
+  ]
+ },
+ "cnt_prov": {
+  "Aceh": [
+   724,
+   150,
+   319,
+   102,
+   401,
+   95,
+   381,
+   393,
+   73,
+   14,
+   0,
+   0
+  ],
+  "North Sumatra": [
+   221,
+   66,
+   250,
+   36,
+   135,
+   74,
+   129,
+   367,
+   127,
+   17,
+   1,
+   0
+  ],
+  "West Sumatra": [
+   179,
+   79,
+   103,
+   35,
+   139,
+   105,
+   146,
+   174,
+   184,
+   40,
+   4,
+   0
+  ],
+  "Riau": [
+   177,
+   814,
+   1315,
+   412,
+   76,
+   102,
+   111,
+   1641,
+   1240,
+   39,
+   5,
+   0
+  ],
+  "Riau Islands": [
+   61,
+   119,
+   400,
+   64,
+   10,
+   5,
+   25,
+   283,
+   251,
+   13,
+   0,
+   0
+  ],
+  "Jambi": [
+   57,
+   40,
+   71,
+   47,
+   84,
+   123,
+   156,
+   1330,
+   3035,
+   3287,
+   35,
+   0
+  ],
+  "South Sumatra": [
+   60,
+   56,
+   98,
+   92,
+   307,
+   364,
+   641,
+   7035,
+   18753,
+   21845,
+   41,
+   0
+  ],
+  "Bengkulu": [
+   79,
+   13,
+   76,
+   13,
+   83,
+   62,
+   91,
+   194,
+   184,
+   112,
+   2,
+   0
+  ],
+  "Lampung": [
+   86,
+   0,
+   12,
+   16,
+   27,
+   48,
+   245,
+   1264,
+   1722,
+   2076,
+   4,
+   0
+  ],
+  "Bangka-Belitung Islands": [
+   93,
+   78,
+   88,
+   71,
+   135,
+   172,
+   402,
+   1668,
+   2830,
+   2489,
+   78,
+   0
+  ],
+  "West Kalimantan": [
+   993,
+   570,
+   2033,
+   266,
+   182,
+   261,
+   3706,
+   38571,
+   23705,
+   8864,
+   77,
+   0
+  ],
+  "Central Kalimantan": [
+   390,
+   65,
+   130,
+   112,
+   49,
+   148,
+   1350,
+   31803,
+   65762,
+   64601,
+   465,
+   0
+  ],
+  "South Kalimantan": [
+   65,
+   16,
+   53,
+   93,
+   100,
+   207,
+   815,
+   6555,
+   8599,
+   8254,
+   22,
+   0
+  ],
+  "East Kalimantan": [
+   265,
+   37,
+   306,
+   332,
+   290,
+   503,
+   636,
+   8007,
+   10567,
+   9305,
+   106,
+   0
+  ],
+  "North Kalimantan": [
+   78,
+   18,
+   22,
+   75,
+   101,
+   81,
+   45,
+   1551,
+   825,
+   198,
+   3,
+   0
+  ]
+ }
+}

@@ -1,0 +1,929 @@
+{
+ "territorio": "Indonesia — Sumatra + Kalimantan",
+ "generado": "2026-11-05",
+ "fuente": {
+  "fuego": "FIRMS MODIS 2001–2011 (conf≥30, type=0; base medianas 2001–2025) + VIIRS S-NPP 2012–2025 (conf!=l, type=0)",
+  "enso": "ONI NOAA/CPC, mes central; Niño ≥ +0.5 · Niña ≤ −0.5"
+ },
+ "regiones": {
+  "territorio": [
+   "Aceh",
+   "North Sumatra",
+   "West Sumatra",
+   "Riau",
+   "Riau Islands",
+   "Jambi",
+   "South Sumatra",
+   "Bengkulu",
+   "Lampung",
+   "Bangka-Belitung Islands",
+   "West Kalimantan",
+   "Central Kalimantan",
+   "South Kalimantan",
+   "East Kalimantan",
+   "North Kalimantan"
+  ],
+  "SUM-N": [
+   "Aceh",
+   "North Sumatra",
+   "West Sumatra",
+   "Riau",
+   "Riau Islands"
+  ],
+  "SUM-S": [
+   "Jambi",
+   "South Sumatra",
+   "Bengkulu",
+   "Lampung",
+   "Bangka-Belitung Islands"
+  ],
+  "KAL": [
+   "West Kalimantan",
+   "Central Kalimantan",
+   "South Kalimantan",
+   "East Kalimantan",
+   "North Kalimantan"
+  ]
+ },
+ "ventanas": {
+  "territorio": {
+   "meses": [
+    "ago",
+    "sep",
+    "oct"
+   ],
+   "cobertura_fuego": 0.69
+  },
+  "SUM-N": {
+   "meses": [
+    "feb",
+    "mar",
+    "jun",
+    "jul",
+    "ago",
+    "sep"
+   ],
+   "cobertura_fuego": 0.87
+  },
+  "SUM-S": {
+   "meses": [
+    "ago",
+    "sep",
+    "oct"
+   ],
+   "cobertura_fuego": 0.8
+  },
+  "KAL": {
+   "meses": [
+    "ago",
+    "sep",
+    "oct"
+   ],
+   "cobertura_fuego": 0.83
+  }
+ },
+ "factores": {
+  "territorio": {
+   "lag0": {
+    "nina": {
+     "factor": 0.5,
+     "n": 18
+    },
+    "neutral": {
+     "factor": 0.98,
+     "n": 36
+    },
+    "nino": {
+     "factor": 3.44,
+     "n": 21
+    },
+    "p_perm_nina_vs_resto": 0.0006,
+    "p_perm_nino_vs_resto": 0.0
+   },
+   "lag3": {
+    "nina": {
+     "factor": 0.53,
+     "n": 8
+    },
+    "neutral": {
+     "factor": 1.1,
+     "n": 57
+    },
+    "nino": {
+     "factor": 4.59,
+     "n": 10
+    },
+    "p_perm_nina_vs_resto": 0.0143,
+    "p_perm_nino_vs_resto": 0.0003
+   }
+  },
+  "SUM-N": {
+   "lag0": {
+    "nina": {
+     "factor": 0.69,
+     "n": 31
+    },
+    "neutral": {
+     "factor": 1.34,
+     "n": 86
+    },
+    "nino": {
+     "factor": 1.76,
+     "n": 33
+    },
+    "p_perm_nina_vs_resto": 0.0093,
+    "p_perm_nino_vs_resto": 0.3717
+   },
+   "lag3": {
+    "nina": {
+     "factor": 1.0,
+     "n": 37
+    },
+    "neutral": {
+     "factor": 1.3,
+     "n": 79
+    },
+    "nino": {
+     "factor": 1.8,
+     "n": 34
+    },
+    "p_perm_nina_vs_resto": 0.0638,
+    "p_perm_nino_vs_resto": 0.1297
+   }
+  },
+  "SUM-S": {
+   "lag0": {
+    "nina": {
+     "factor": 0.33,
+     "n": 18
+    },
+    "neutral": {
+     "factor": 1.0,
+     "n": 36
+    },
+    "nino": {
+     "factor": 3.71,
+     "n": 21
+    },
+    "p_perm_nina_vs_resto": 0.0003,
+    "p_perm_nino_vs_resto": 0.0
+   },
+   "lag3": {
+    "nina": {
+     "factor": 0.7,
+     "n": 8
+    },
+    "neutral": {
+     "factor": 1.06,
+     "n": 57
+    },
+    "nino": {
+     "factor": 7.68,
+     "n": 10
+    },
+    "p_perm_nina_vs_resto": 0.0232,
+    "p_perm_nino_vs_resto": 0.0001
+   }
+  },
+  "KAL": {
+   "lag0": {
+    "nina": {
+     "factor": 0.55,
+     "n": 18
+    },
+    "neutral": {
+     "factor": 0.97,
+     "n": 36
+    },
+    "nino": {
+     "factor": 4.25,
+     "n": 21
+    },
+    "p_perm_nina_vs_resto": 0.0003,
+    "p_perm_nino_vs_resto": 0.0
+   },
+   "lag3": {
+    "nina": {
+     "factor": 0.38,
+     "n": 8
+    },
+    "neutral": {
+     "factor": 1.1,
+     "n": 57
+    },
+    "nino": {
+     "factor": 4.87,
+     "n": 10
+    },
+    "p_perm_nina_vs_resto": 0.0046,
+    "p_perm_nino_vs_resto": 0.0006
+   }
+  }
+ },
+ "barrido_lags": {
+  "territorio": {
+   "lag0": {
+    "nina": {
+     "factor": 0.5,
+     "n": 18
+    },
+    "neutral": {
+     "factor": 0.98,
+     "n": 36
+    },
+    "nino": {
+     "factor": 3.44,
+     "n": 21
+    },
+    "p_perm_nina_vs_resto": 0.0006,
+    "p_perm_nino_vs_resto": 0.0
+   },
+   "lag3": {
+    "nina": {
+     "factor": 0.53,
+     "n": 8
+    },
+    "neutral": {
+     "factor": 1.1,
+     "n": 57
+    },
+    "nino": {
+     "factor": 4.59,
+     "n": 10
+    },
+    "p_perm_nina_vs_resto": 0.0143,
+    "p_perm_nino_vs_resto": 0.0003
+   },
+   "lag6": {
+    "nina": {
+     "factor": 0.97,
+     "n": 20
+    },
+    "neutral": {
+     "factor": 1.3,
+     "n": 37
+    },
+    "nino": {
+     "factor": 0.93,
+     "n": 18
+    },
+    "p_perm_nina_vs_resto": 0.0847,
+    "p_perm_nino_vs_resto": 0.7176
+   },
+   "lag9": {
+    "nina": {
+     "factor": 1.11,
+     "n": 30
+    },
+    "neutral": {
+     "factor": 1.78,
+     "n": 18
+    },
+    "nino": {
+     "factor": 1.0,
+     "n": 27
+    },
+    "p_perm_nina_vs_resto": 0.2334,
+    "p_perm_nino_vs_resto": 0.9087
+   },
+   "lag12": {
+    "nina": {
+     "factor": 0.97,
+     "n": 18
+    },
+    "neutral": {
+     "factor": 1.69,
+     "n": 36
+    },
+    "nino": {
+     "factor": 1.0,
+     "n": 21
+    },
+    "p_perm_nina_vs_resto": 0.1575,
+    "p_perm_nino_vs_resto": 0.9219
+   }
+  },
+  "SUM-N": {
+   "lag0": {
+    "nina": {
+     "factor": 0.69,
+     "n": 31
+    },
+    "neutral": {
+     "factor": 1.34,
+     "n": 86
+    },
+    "nino": {
+     "factor": 1.76,
+     "n": 33
+    },
+    "p_perm_nina_vs_resto": 0.0093,
+    "p_perm_nino_vs_resto": 0.3717
+   },
+   "lag3": {
+    "nina": {
+     "factor": 1.0,
+     "n": 37
+    },
+    "neutral": {
+     "factor": 1.3,
+     "n": 79
+    },
+    "nino": {
+     "factor": 1.8,
+     "n": 34
+    },
+    "p_perm_nina_vs_resto": 0.0638,
+    "p_perm_nino_vs_resto": 0.1297
+   },
+   "lag6": {
+    "nina": {
+     "factor": 1.2,
+     "n": 46
+    },
+    "neutral": {
+     "factor": 1.51,
+     "n": 60
+    },
+    "nino": {
+     "factor": 1.26,
+     "n": 44
+    },
+    "p_perm_nina_vs_resto": 0.1431,
+    "p_perm_nino_vs_resto": 0.8085
+   },
+   "lag9": {
+    "nina": {
+     "factor": 1.0,
+     "n": 42
+    },
+    "neutral": {
+     "factor": 1.94,
+     "n": 68
+    },
+    "nino": {
+     "factor": 1.19,
+     "n": 40
+    },
+    "p_perm_nina_vs_resto": 0.0247,
+    "p_perm_nino_vs_resto": 0.6739
+   },
+   "lag12": {
+    "nina": {
+     "factor": 1.12,
+     "n": 34
+    },
+    "neutral": {
+     "factor": 1.56,
+     "n": 83
+    },
+    "nino": {
+     "factor": 1.0,
+     "n": 33
+    },
+    "p_perm_nina_vs_resto": 0.3733,
+    "p_perm_nino_vs_resto": 0.1044
+   }
+  },
+  "SUM-S": {
+   "lag0": {
+    "nina": {
+     "factor": 0.33,
+     "n": 18
+    },
+    "neutral": {
+     "factor": 1.0,
+     "n": 36
+    },
+    "nino": {
+     "factor": 3.71,
+     "n": 21
+    },
+    "p_perm_nina_vs_resto": 0.0003,
+    "p_perm_nino_vs_resto": 0.0
+   },
+   "lag3": {
+    "nina": {
+     "factor": 0.7,
+     "n": 8
+    },
+    "neutral": {
+     "factor": 1.06,
+     "n": 57
+    },
+    "nino": {
+     "factor": 7.68,
+     "n": 10
+    },
+    "p_perm_nina_vs_resto": 0.0232,
+    "p_perm_nino_vs_resto": 0.0001
+   },
+   "lag6": {
+    "nina": {
+     "factor": 1.1,
+     "n": 20
+    },
+    "neutral": {
+     "factor": 1.36,
+     "n": 37
+    },
+    "nino": {
+     "factor": 1.05,
+     "n": 18
+    },
+    "p_perm_nina_vs_resto": 0.1162,
+    "p_perm_nino_vs_resto": 0.3401
+   },
+   "lag9": {
+    "nina": {
+     "factor": 1.12,
+     "n": 30
+    },
+    "neutral": {
+     "factor": 2.03,
+     "n": 18
+    },
+    "nino": {
+     "factor": 1.06,
+     "n": 27
+    },
+    "p_perm_nina_vs_resto": 0.2219,
+    "p_perm_nino_vs_resto": 0.6539
+   },
+   "lag12": {
+    "nina": {
+     "factor": 1.15,
+     "n": 18
+    },
+    "neutral": {
+     "factor": 1.57,
+     "n": 36
+    },
+    "nino": {
+     "factor": 1.04,
+     "n": 21
+    },
+    "p_perm_nina_vs_resto": 0.2592,
+    "p_perm_nino_vs_resto": 0.8341
+   }
+  },
+  "KAL": {
+   "lag0": {
+    "nina": {
+     "factor": 0.55,
+     "n": 18
+    },
+    "neutral": {
+     "factor": 0.97,
+     "n": 36
+    },
+    "nino": {
+     "factor": 4.25,
+     "n": 21
+    },
+    "p_perm_nina_vs_resto": 0.0003,
+    "p_perm_nino_vs_resto": 0.0
+   },
+   "lag3": {
+    "nina": {
+     "factor": 0.38,
+     "n": 8
+    },
+    "neutral": {
+     "factor": 1.1,
+     "n": 57
+    },
+    "nino": {
+     "factor": 4.87,
+     "n": 10
+    },
+    "p_perm_nina_vs_resto": 0.0046,
+    "p_perm_nino_vs_resto": 0.0006
+   },
+   "lag6": {
+    "nina": {
+     "factor": 0.83,
+     "n": 20
+    },
+    "neutral": {
+     "factor": 1.51,
+     "n": 37
+    },
+    "nino": {
+     "factor": 0.93,
+     "n": 18
+    },
+    "p_perm_nina_vs_resto": 0.1356,
+    "p_perm_nino_vs_resto": 0.9904
+   },
+   "lag9": {
+    "nina": {
+     "factor": 1.2,
+     "n": 30
+    },
+    "neutral": {
+     "factor": 1.7,
+     "n": 18
+    },
+    "nino": {
+     "factor": 0.99,
+     "n": 27
+    },
+    "p_perm_nina_vs_resto": 0.2952,
+    "p_perm_nino_vs_resto": 0.7925
+   },
+   "lag12": {
+    "nina": {
+     "factor": 0.83,
+     "n": 18
+    },
+    "neutral": {
+     "factor": 1.7,
+     "n": 36
+    },
+    "nino": {
+     "factor": 0.99,
+     "n": 21
+    },
+    "p_perm_nina_vs_resto": 0.0563,
+    "p_perm_nino_vs_resto": 0.5907
+   }
+  }
+ },
+ "loyo_lag3": {
+  "territorio": {
+   "folds": 25,
+   "orden_nino_mayor_nina_se_sostiene": 25,
+   "oos": {
+    "nina": {
+     "factor": 0.51,
+     "n": 8
+    },
+    "neutral": {
+     "factor": 1.2,
+     "n": 57
+    },
+    "nino": {
+     "factor": 5.01,
+     "n": 10
+    }
+   },
+   "p_perm_oos_nino_vs_resto": 0.0001,
+   "ventana_cambia_sin_Y": "0/14"
+  },
+  "SUM-N": {
+   "folds": 25,
+   "orden_nino_mayor_nina_se_sostiene": 25,
+   "oos": {
+    "nina": {
+     "factor": 0.96,
+     "n": 37
+    },
+    "neutral": {
+     "factor": 1.41,
+     "n": 79
+    },
+    "nino": {
+     "factor": 1.98,
+     "n": 34
+    }
+   },
+   "p_perm_oos_nino_vs_resto": 0.1163,
+   "ventana_cambia_sin_Y": "3/14"
+  },
+  "SUM-S": {
+   "folds": 25,
+   "orden_nino_mayor_nina_se_sostiene": 25,
+   "oos": {
+    "nina": {
+     "factor": 0.71,
+     "n": 8
+    },
+    "neutral": {
+     "factor": 1.09,
+     "n": 57
+    },
+    "nino": {
+     "factor": 7.96,
+     "n": 10
+    }
+   },
+   "p_perm_oos_nino_vs_resto": 0.0001,
+   "ventana_cambia_sin_Y": "0/14"
+  },
+  "KAL": {
+   "folds": 25,
+   "orden_nino_mayor_nina_se_sostiene": 25,
+   "oos": {
+    "nina": {
+     "factor": 0.34,
+     "n": 8
+    },
+    "neutral": {
+     "factor": 1.17,
+     "n": 57
+    },
+    "nino": {
+     "factor": 5.99,
+     "n": 10
+    }
+   },
+   "p_perm_oos_nino_vs_resto": 0.001,
+   "ventana_cambia_sin_Y": "0/14"
+  }
+ },
+ "sensibilidad_ventana_lag3": {
+  "6%": {
+   "territorio": {
+    "meses": [
+     "jul",
+     "ago",
+     "sep",
+     "oct"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 0.63,
+      "n": 12
+     },
+     "neutral": {
+      "factor": 1.08,
+      "n": 74
+     },
+     "nino": {
+      "factor": 3.1,
+      "n": 14
+     },
+     "p_perm_nina_vs_resto": 0.0129,
+     "p_perm_nino_vs_resto": 0.001
+    }
+   },
+   "SUM-N": {
+    "meses": [
+     "feb",
+     "mar",
+     "jun",
+     "jul",
+     "ago",
+     "sep"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 1.0,
+      "n": 37
+     },
+     "neutral": {
+      "factor": 1.3,
+      "n": 79
+     },
+     "nino": {
+      "factor": 1.8,
+      "n": 34
+     },
+     "p_perm_nina_vs_resto": 0.0667,
+     "p_perm_nino_vs_resto": 0.1293
+    }
+   },
+   "SUM-S": {
+    "meses": [
+     "ago",
+     "sep",
+     "oct"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 0.7,
+      "n": 8
+     },
+     "neutral": {
+      "factor": 1.06,
+      "n": 57
+     },
+     "nino": {
+      "factor": 7.68,
+      "n": 10
+     },
+     "p_perm_nina_vs_resto": 0.0228,
+     "p_perm_nino_vs_resto": 0.0001
+    }
+   },
+   "KAL": {
+    "meses": [
+     "ago",
+     "sep",
+     "oct"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 0.38,
+      "n": 8
+     },
+     "neutral": {
+      "factor": 1.1,
+      "n": 57
+     },
+     "nino": {
+      "factor": 4.87,
+      "n": 10
+     },
+     "p_perm_nina_vs_resto": 0.0049,
+     "p_perm_nino_vs_resto": 0.0007
+    }
+   }
+  },
+  "8%": {
+   "territorio": {
+    "meses": [
+     "ago",
+     "sep",
+     "oct"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 0.53,
+      "n": 8
+     },
+     "neutral": {
+      "factor": 1.1,
+      "n": 57
+     },
+     "nino": {
+      "factor": 4.59,
+      "n": 10
+     },
+     "p_perm_nina_vs_resto": 0.0159,
+     "p_perm_nino_vs_resto": 0.0004
+    }
+   },
+   "SUM-N": {
+    "meses": [
+     "feb",
+     "mar",
+     "jun",
+     "jul",
+     "ago",
+     "sep"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 1.0,
+      "n": 37
+     },
+     "neutral": {
+      "factor": 1.3,
+      "n": 79
+     },
+     "nino": {
+      "factor": 1.8,
+      "n": 34
+     },
+     "p_perm_nina_vs_resto": 0.0694,
+     "p_perm_nino_vs_resto": 0.1296
+    }
+   },
+   "SUM-S": {
+    "meses": [
+     "ago",
+     "sep",
+     "oct"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 0.7,
+      "n": 8
+     },
+     "neutral": {
+      "factor": 1.06,
+      "n": 57
+     },
+     "nino": {
+      "factor": 7.68,
+      "n": 10
+     },
+     "p_perm_nina_vs_resto": 0.0226,
+     "p_perm_nino_vs_resto": 0.0
+    }
+   },
+   "KAL": {
+    "meses": [
+     "ago",
+     "sep",
+     "oct"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 0.38,
+      "n": 8
+     },
+     "neutral": {
+      "factor": 1.1,
+      "n": 57
+     },
+     "nino": {
+      "factor": 4.87,
+      "n": 10
+     },
+     "p_perm_nina_vs_resto": 0.0053,
+     "p_perm_nino_vs_resto": 0.0008
+    }
+   }
+  },
+  "10%": {
+   "territorio": {
+    "meses": [
+     "ago",
+     "sep",
+     "oct"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 0.53,
+      "n": 8
+     },
+     "neutral": {
+      "factor": 1.1,
+      "n": 57
+     },
+     "nino": {
+      "factor": 4.59,
+      "n": 10
+     },
+     "p_perm_nina_vs_resto": 0.0152,
+     "p_perm_nino_vs_resto": 0.0003
+    }
+   },
+   "SUM-N": {
+    "meses": [
+     "feb",
+     "mar",
+     "jun",
+     "jul",
+     "ago"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 0.98,
+      "n": 34
+     },
+     "neutral": {
+      "factor": 1.36,
+      "n": 60
+     },
+     "nino": {
+      "factor": 1.71,
+      "n": 31
+     },
+     "p_perm_nina_vs_resto": 0.0689,
+     "p_perm_nino_vs_resto": 0.4173
+    }
+   },
+   "SUM-S": {
+    "meses": [
+     "ago",
+     "sep",
+     "oct"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 0.7,
+      "n": 8
+     },
+     "neutral": {
+      "factor": 1.06,
+      "n": 57
+     },
+     "nino": {
+      "factor": 7.68,
+      "n": 10
+     },
+     "p_perm_nina_vs_resto": 0.0246,
+     "p_perm_nino_vs_resto": 0.0002
+    }
+   },
+   "KAL": {
+    "meses": [
+     "ago",
+     "sep",
+     "oct"
+    ],
+    "lag3": {
+     "nina": {
+      "factor": 0.38,
+      "n": 8
+     },
+     "neutral": {
+      "factor": 1.1,
+      "n": 57
+     },
+     "nino": {
+      "factor": 4.87,
+      "n": 10
+     },
+     "p_perm_nina_vs_resto": 0.005,
+     "p_perm_nino_vs_resto": 0.0006
+    }
+   }
+  }
+ },
+ "n_log_cero": 0
+}

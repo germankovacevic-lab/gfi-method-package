@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this method, calibration or code, please cite it as below."
 title: "The GeoFuego Index (GFI): an operational seasonal fire-risk indicator combining ENSO phase and zone-level accumulated drought"
-version: 1.0.0
-date-released: "TO-BE-SET-ON-PUBLICATION"
-doi: "10.5281/zenodo.23017740"
+version: 1.1.0
+date-released: "2026-11-06"
+doi: "10.5281/zenodo.23987348"
 url: "https://geofuego.com.ar"
 repository-code: "https://github.com/germankovacevic-lab/gfi-method-package"
 license: CC-BY-4.0
@@ -12,4 +12,4 @@ authors:
     given-names: "Germán Ricardo"
     orcid: "https://orcid.org/0009-0007-4270-1963"
     affiliation: "AgentNEO (agneo.app) — GEOFUEGO.com.ar project · Copernicus.com.ar project, Buenos Aires, Argentina"
-keywords: [wildfire, ENSO, seasonal forecasting, fire danger, drought code, fire weather index, Argentina, FIRMS, ONI, ERA5]
+keywords: [wildfire, ENSO, Indian Ocean Dipole, Indonesia, Sumatra, Kalimantan, peatland fire, method transfer, seasonal forecasting, fire danger, drought code, fire weather index, Argentina, FIRMS, ONI, ERA5]

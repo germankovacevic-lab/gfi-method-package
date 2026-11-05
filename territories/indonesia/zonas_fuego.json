@@ -1,0 +1,488 @@
+{
+ "territorio": "Indonesia — Sumatra + Kalimantan",
+ "fuente": "NASA FIRMS VIIRS S-NPP 2012–2024, filtros conf!=l & type=0, PIP geoBoundaries IDN ADM1 (ODbL)",
+ "metodo": "grilla 0.25° (ERA5) → k-means ponderado k=5 determinista (init farthest-point) → centroide ponderado (port 1:1 de AR)",
+ "total_focos": 2236596,
+ "zonas": {
+  "Aceh": [
+   {
+    "lat": 4.34,
+    "lon": 96.09,
+    "peso": 0.2628,
+    "n_focos": 12552
+   },
+   {
+    "lat": 2.69,
+    "lon": 97.85,
+    "peso": 0.2463,
+    "n_focos": 11763
+   },
+   {
+    "lat": 4.67,
+    "lon": 97.28,
+    "peso": 0.2033,
+    "n_focos": 9707
+   },
+   {
+    "lat": 3.96,
+    "lon": 96.7,
+    "peso": 0.1847,
+    "n_focos": 8819
+   },
+   {
+    "lat": 5.32,
+    "lon": 95.67,
+    "peso": 0.1029,
+    "n_focos": 4916
+   }
+  ],
+  "North Sumatra": [
+   {
+    "lat": 1.36,
+    "lon": 99.75,
+    "peso": 0.23,
+    "n_focos": 12051
+   },
+   {
+    "lat": 2.14,
+    "lon": 98.66,
+    "peso": 0.2084,
+    "n_focos": 10922
+   },
+   {
+    "lat": 1.13,
+    "lon": 98.89,
+    "peso": 0.1976,
+    "n_focos": 10357
+   },
+   {
+    "lat": 2.53,
+    "lon": 99.87,
+    "peso": 0.1885,
+    "n_focos": 9879
+   },
+   {
+    "lat": 3.17,
+    "lon": 98.35,
+    "peso": 0.1755,
+    "n_focos": 9196
+   }
+  ],
+  "West Sumatra": [
+   {
+    "lat": -2.22,
+    "lon": 100.96,
+    "peso": 0.4185,
+    "n_focos": 12321
+   },
+   {
+    "lat": -1.13,
+    "lon": 101.5,
+    "peso": 0.2195,
+    "n_focos": 6463
+   },
+   {
+    "lat": 0.13,
+    "lon": 99.53,
+    "peso": 0.1298,
+    "n_focos": 3821
+   },
+   {
+    "lat": 0.33,
+    "lon": 100.27,
+    "peso": 0.1283,
+    "n_focos": 3777
+   },
+   {
+    "lat": -0.83,
+    "lon": 100.82,
+    "peso": 0.104,
+    "n_focos": 3061
+   }
+  ],
+  "Riau": [
+   {
+    "lat": 1.43,
+    "lon": 101.21,
+    "peso": 0.3514,
+    "n_focos": 129825
+   },
+   {
+    "lat": 0.98,
+    "lon": 102.32,
+    "peso": 0.1858,
+    "n_focos": 68618
+   },
+   {
+    "lat": -0.09,
+    "lon": 102.9,
+    "peso": 0.1854,
+    "n_focos": 68490
+   },
+   {
+    "lat": -0.26,
+    "lon": 101.76,
+    "peso": 0.1407,
+    "n_focos": 51976
+   },
+   {
+    "lat": 2.03,
+    "lon": 100.63,
+    "peso": 0.1367,
+    "n_focos": 50491
+   }
+  ],
+  "Riau Islands": [
+   {
+    "lat": 3.82,
+    "lon": 108.29,
+    "peso": 0.4412,
+    "n_focos": 6602
+   },
+   {
+    "lat": 0.88,
+    "lon": 104.11,
+    "peso": 0.1863,
+    "n_focos": 2788
+   },
+   {
+    "lat": 1.11,
+    "lon": 104.53,
+    "peso": 0.1492,
+    "n_focos": 2232
+   },
+   {
+    "lat": -0.36,
+    "lon": 104.5,
+    "peso": 0.1278,
+    "n_focos": 1912
+   },
+   {
+    "lat": 0.8,
+    "lon": 103.4,
+    "peso": 0.0955,
+    "n_focos": 1429
+   }
+  ],
+  "Jambi": [
+   {
+    "lat": -1.5,
+    "lon": 103.96,
+    "peso": 0.4106,
+    "n_focos": 50601
+   },
+   {
+    "lat": -2.14,
+    "lon": 102.68,
+    "peso": 0.2272,
+    "n_focos": 28000
+   },
+   {
+    "lat": -1.16,
+    "lon": 102.1,
+    "peso": 0.1489,
+    "n_focos": 18353
+   },
+   {
+    "lat": -1.18,
+    "lon": 103.03,
+    "peso": 0.112,
+    "n_focos": 13805
+   },
+   {
+    "lat": -1.3,
+    "lon": 104.33,
+    "peso": 0.1013,
+    "n_focos": 12490
+   }
+  ],
+  "South Sumatra": [
+   {
+    "lat": -2.85,
+    "lon": 105.52,
+    "peso": 0.2463,
+    "n_focos": 90125
+   },
+   {
+    "lat": -3.34,
+    "lon": 103.54,
+    "peso": 0.2155,
+    "n_focos": 78847
+   },
+   {
+    "lat": -3.59,
+    "lon": 105.58,
+    "peso": 0.1887,
+    "n_focos": 69049
+   },
+   {
+    "lat": -2.08,
+    "lon": 104.06,
+    "peso": 0.1759,
+    "n_focos": 64356
+   },
+   {
+    "lat": -3.37,
+    "lon": 104.82,
+    "peso": 0.1737,
+    "n_focos": 63576
+   }
+  ],
+  "Bengkulu": [
+   {
+    "lat": -2.76,
+    "lon": 101.45,
+    "peso": 0.2813,
+    "n_focos": 4448
+   },
+   {
+    "lat": -3.29,
+    "lon": 102.08,
+    "peso": 0.2629,
+    "n_focos": 4157
+   },
+   {
+    "lat": -3.72,
+    "lon": 102.63,
+    "peso": 0.2411,
+    "n_focos": 3812
+   },
+   {
+    "lat": -4.56,
+    "lon": 103.26,
+    "peso": 0.1933,
+    "n_focos": 3056
+   },
+   {
+    "lat": -5.38,
+    "lon": 102.24,
+    "peso": 0.0214,
+    "n_focos": 338
+   }
+  ],
+  "Lampung": [
+   {
+    "lat": -4.9,
+    "lon": 105.69,
+    "peso": 0.2735,
+    "n_focos": 10859
+   },
+   {
+    "lat": -4.46,
+    "lon": 105.39,
+    "peso": 0.2723,
+    "n_focos": 10815
+   },
+   {
+    "lat": -4.02,
+    "lon": 105.42,
+    "peso": 0.2002,
+    "n_focos": 7952
+   },
+   {
+    "lat": -4.54,
+    "lon": 104.71,
+    "peso": 0.1972,
+    "n_focos": 7831
+   },
+   {
+    "lat": -5.43,
+    "lon": 104.51,
+    "peso": 0.0568,
+    "n_focos": 2254
+   }
+  ],
+  "Bangka-Belitung Islands": [
+   {
+    "lat": -2.4,
+    "lon": 106.05,
+    "peso": 0.2835,
+    "n_focos": 12404
+   },
+   {
+    "lat": -2.81,
+    "lon": 106.46,
+    "peso": 0.2458,
+    "n_focos": 10751
+   },
+   {
+    "lat": -2.92,
+    "lon": 107.88,
+    "peso": 0.1873,
+    "n_focos": 8195
+   },
+   {
+    "lat": -1.9,
+    "lon": 105.45,
+    "peso": 0.1627,
+    "n_focos": 7117
+   },
+   {
+    "lat": -1.72,
+    "lon": 105.87,
+    "peso": 0.1207,
+    "n_focos": 5279
+   }
+  ],
+  "West Kalimantan": [
+   {
+    "lat": 0.02,
+    "lon": 110.17,
+    "peso": 0.287,
+    "n_focos": 97901
+   },
+   {
+    "lat": 0.17,
+    "lon": 111.93,
+    "peso": 0.2058,
+    "n_focos": 70178
+   },
+   {
+    "lat": -1.37,
+    "lon": 110.21,
+    "peso": 0.1997,
+    "n_focos": 68115
+   },
+   {
+    "lat": 1.0,
+    "lon": 109.39,
+    "peso": 0.1696,
+    "n_focos": 57862
+   },
+   {
+    "lat": -2.54,
+    "lon": 110.59,
+    "peso": 0.1378,
+    "n_focos": 47016
+   }
+  ],
+  "Central Kalimantan": [
+   {
+    "lat": -2.68,
+    "lon": 114.16,
+    "peso": 0.4145,
+    "n_focos": 201095
+   },
+   {
+    "lat": -2.29,
+    "lon": 113.01,
+    "peso": 0.2316,
+    "n_focos": 112390
+   },
+   {
+    "lat": -3.13,
+    "lon": 112.3,
+    "peso": 0.1379,
+    "n_focos": 66912
+   },
+   {
+    "lat": -2.54,
+    "lon": 111.31,
+    "peso": 0.1095,
+    "n_focos": 53106
+   },
+   {
+    "lat": -1.17,
+    "lon": 114.48,
+    "peso": 0.1065,
+    "n_focos": 51669
+   }
+  ],
+  "South Kalimantan": [
+   {
+    "lat": -3.18,
+    "lon": 114.89,
+    "peso": 0.3033,
+    "n_focos": 36168
+   },
+   {
+    "lat": -2.62,
+    "lon": 115.11,
+    "peso": 0.2847,
+    "n_focos": 33952
+   },
+   {
+    "lat": -3.49,
+    "lon": 115.97,
+    "peso": 0.1522,
+    "n_focos": 18145
+   },
+   {
+    "lat": -3.82,
+    "lon": 114.9,
+    "peso": 0.14,
+    "n_focos": 16697
+   },
+   {
+    "lat": -2.4,
+    "lon": 115.79,
+    "peso": 0.1197,
+    "n_focos": 14275
+   }
+  ],
+  "East Kalimantan": [
+   {
+    "lat": 0.18,
+    "lon": 117.04,
+    "peso": 0.3202,
+    "n_focos": 52445
+   },
+   {
+    "lat": -0.3,
+    "lon": 116.07,
+    "peso": 0.236,
+    "n_focos": 38652
+   },
+   {
+    "lat": 1.68,
+    "lon": 117.55,
+    "peso": 0.2241,
+    "n_focos": 36707
+   },
+   {
+    "lat": -1.78,
+    "lon": 116.2,
+    "peso": 0.185,
+    "n_focos": 30299
+   },
+   {
+    "lat": 0.53,
+    "lon": 115.04,
+    "peso": 0.0348,
+    "n_focos": 5701
+   }
+  ],
+  "North Kalimantan": [
+   {
+    "lat": 2.59,
+    "lon": 117.66,
+    "peso": 0.3948,
+    "n_focos": 9820
+   },
+   {
+    "lat": 3.62,
+    "lon": 116.56,
+    "peso": 0.2112,
+    "n_focos": 5253
+   },
+   {
+    "lat": 3.71,
+    "lon": 117.41,
+    "peso": 0.1826,
+    "n_focos": 4541
+   },
+   {
+    "lat": 2.87,
+    "lon": 116.43,
+    "peso": 0.1257,
+    "n_focos": 3126
+   },
+   {
+    "lat": 1.63,
+    "lon": 115.15,
+    "peso": 0.0858,
+    "n_focos": 2133
+   }
+  ]
+ }
+}
