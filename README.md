@@ -1,56 +1,22 @@
-# The GeoFuego Index (GFI) — method package
+# GeoFuego Index (GFI) — method package v1.2.0
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23987348.svg)](https://doi.org/10.5281/zenodo.23987348)
+Seasonal fire-risk skill from ENSO phase and zone-level accumulated drought: a regional-scale categorical indicator transferred from Argentina to Indonesia. Companion of the manuscript submitted to *Natural Hazards and Earth System Sciences* (resubmission, November 2026). Concept DOI 10.5281/zenodo.23017739 · this version 10.5281/zenodo.24164911.
 
-- **This version (1.1.0):** DOI `10.5281/zenodo.23987348` — adds `territories/indonesia/`, the transfer of the method to a second territory.
-- **All versions (concept DOI):** `10.5281/zenodo.23017739` · version 1.0.0 (Argentina, frozen with the manuscript): `10.5281/zenodo.23017740`
-- **Code repository (this package):** https://github.com/germankovacevic-lab/gfi-method-package
-- **Live product:** https://geofuego.com.ar · **Public API:** https://ingesta.geofuego.com.ar/api/enso
-- **Manuscript:** "The GeoFuego Index (GFI): an operational seasonal fire-risk indicator combining ENSO phase and zone-level accumulated drought" — submitted to *Natural Hazards and Earth System Sciences* (NHESS); this deposit is its code and data companion.
-- **How to cite:** see `CITATION.cff` (GitHub renders it as a "Cite this repository" button).
+## What is here
 
-Contents:
+- `engine/` — `gfi_rules_v3.py`: reference implementation of rules 3.0 (reads a territory calibration file); `fwi_vanwagner.py`: Fire Weather Index engine (Van Wagner 1987) used for both territories.
+- `territories/argentina/` and `territories/indonesia/` — `calibracion_3.0.json` (fire zones with ERA5-derived monthly thresholds, regions, fire-season windows, ENSO signals with bootstrap intervals, provincial climatologies for the season gate, regional extent thresholds), `DATOS.md` (how to fetch the raw inputs), `scripts/` (zone building, ERA5 download and FWI, ENSO calibration, hindcast).
+- `paper_v2/` — `scripts/00…10` reproduce every table and figure of the manuscript for both territories; `results/` are their outputs (JSON + Markdown); `figures/`; `tablas_apendices.md`.
+- `CHANGELOG.md` — what changed between 1.0, 1.1 and 1.2 and why.
 
-**Note**
-- `nota_tecnica_gfi.md` — technical note (CC BY 4.0)
+## Reproduce
 
-**Calibration and engine**
-- `enso_calibracion.json` — calibration (version 2.2.0): regional ENSO factors 2001–2025 + 116 fire zones with their monthly DC thresholds 2012–2024 (CC BY 4.0)
-- `zonas_fuego.json` — the 116 fire zones: centroid, province and weight (CC BY 4.0)
-- `enso_logic.js` — classification engine (ENSO base, A-zonal drought rule, season gate, country-extent rule), byte-identical to the logic run in production (MIT)
-- `provincias_pip.js` — official IGN province boundaries for point-in-polygon assignment (MIT)
+1. Fetch raw inputs as described in each `territories/<t>/DATOS.md` (FIRMS, ONI, DMI, ERA5 from the CDS). Nothing raw is redistributed.
+2. Run the territory scripts in the order given there, then `paper_v2/scripts/01…10` with `AR` or `ID`.
+3. Compare with `paper_v2/results/`.
 
-**Derivation**
-- `derive_enso_calibracion.mjs` — ENSO calibration derivation (MIT). Accepts `FIRMS_CACHE` and `SALIDA`.
-- `derive_calibracion_v2.mjs` — fire-zone DC-threshold derivation (MIT)
-- `gen_gfi_retro.mjs` — hindcast generator (MIT) · `gfi_v2_retro.json` — its output (CC BY 4.0)
+The calibration file published here is the file the operational product loads: paper and product cannot diverge.
 
-**Verification — reproduces every figure of §4 and Appendix A**
-- `05a_focos_por_zona.mjs` — assigns each of the 2,394,573 filtered VIIRS detections to its fire zone (MIT)
-- `05b_valida_zonal_fwi.py` — zone-level skill (72.4% / 53.6%) and the DC × FWI cells (MIT)
-- `06_verificacion.py` — contingency table, precision/POD/FAR/PSS/HSS, year-block confidence intervals, climatology baseline, lead-time table, country-extent rule under both statistics, season-gate counts (MIT)
-- `07_barrido_lags.mjs` — the lag sweep of Appendix A (MIT)
-- `08_ventana_por_region.py` — seasonal distribution of fire by region; the basis of limitation 1b (VIIRS-only, scope declared in its header) (MIT)
-- `09_loyo_dc.py` — leave-one-year-out validation of the drought term: pooled variants and the per-year skill table of §4 (MIT)
-- `10_loyo_enso_ventana.mjs` — leave-one-year-out of the ENSO term (25 folds) and the 6/8/10% window-sensitivity sweep of §6.1b (MIT)
+## License and citation
 
-**Second territory — `territories/indonesia/` (new in 1.1.0)**
-- The same method applied **without tuning** to Sumatra and Kalimantan (15 provinces, 75 fire zones): zones, seasons, ENSO factors and drought thresholds derived from Indonesia's own data; the only declared choices (provinces, regions, local-noon time zone) are fixed in `territorio.py` before any result. Two standard physical adaptations: equatorial FWI day-length factors and local noon. Scripts `01`–`09`, every derived artefact, an Indian Ocean Dipole control and the 2026 season as an out-of-sample test. See its `README.md` and `DATOS.md`. Public panel: https://geofuego.com.ar/indonesia
-
-**Supporting data**
-- `historico.json` — monthly VIIRS detection series, country and 24 provinces (CC BY 4.0)
-- `DATOS.md` — **how to fetch the raw FIRMS / ONI / ERA5 series** (not redistributed), the run order, and which figure each script produces
-
-**Legal**
-- `CITATION.cff` · `LICENSE-MIT` · `LICENSE-DATA`
-
----
-
-The derived artefacts in this package are self-contained: `05b` and `06_verificacion.py`
-run from this directory once the raw series of `DATOS.md` are in place. `06` completes
-in a few seconds.
-
-Live product: https://geofuego.com.ar · Public API: https://ingesta.geofuego.com.ar/api/enso
-
-**Figures**
-- `figures/` — the six manuscript figures (PDF vector + PNG 300 dpi, colorblind-validated Okabe–Ito palette), their generation scripts (`fig1…fig6*.py`, `estilo.py`) and the intermediate data (`figures/datos/`, produced by `gen_datos_figuras.{mjs,py}`). Reproduce any figure by running its script in place (CC BY 4.0).
+Code: MIT. Derived data and calibration: CC BY 4.0 (LICENSE-DATA). "GeoFuego" is a registered trademark; the method and code are open. Cite as in `CITATION.cff`.

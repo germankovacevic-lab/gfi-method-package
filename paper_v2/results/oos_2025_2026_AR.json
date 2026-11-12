@@ -1,0 +1,735 @@
+{
+ "generado": "2026-11-12",
+ "sequia_2025": {
+  "a": 220,
+  "b": 182,
+  "c": 379,
+  "d": 611,
+  "n": 1392,
+  "rate": 0.28879310344827586,
+  "base": 0.430316091954023,
+  "prec": 0.5472636815920398,
+  "pod": 0.3672787979966611,
+  "pofd": 0.22950819672131148,
+  "pss": 0.1377706012753496,
+  "bias": 0.671118530884808
+ },
+ "sequia_2025_por_mes": {
+  "2025-01": [
+   29,
+   16,
+   42,
+   29
+  ],
+  "2025-02": [
+   39,
+   20,
+   37,
+   20
+  ],
+  "2025-03": [
+   22,
+   16,
+   24,
+   54
+  ],
+  "2025-04": [
+   29,
+   10,
+   33,
+   44
+  ],
+  "2025-05": [
+   20,
+   22,
+   31,
+   43
+  ],
+  "2025-06": [
+   19,
+   17,
+   27,
+   53
+  ],
+  "2025-07": [
+   13,
+   27,
+   18,
+   58
+  ],
+  "2025-08": [
+   13,
+   17,
+   23,
+   63
+  ],
+  "2025-09": [
+   7,
+   11,
+   31,
+   67
+  ],
+  "2025-10": [
+   11,
+   7,
+   34,
+   64
+  ],
+  "2025-11": [
+   10,
+   11,
+   43,
+   52
+  ],
+  "2025-12": [
+   8,
+   8,
+   36,
+   64
+  ]
+ },
+ "sequia_2026": {
+  "a": 55,
+  "b": 72,
+  "c": 326,
+  "d": 707,
+  "n": 1160,
+  "rate": 0.10948275862068965,
+  "base": 0.328448275862069,
+  "prec": 0.4330708661417323,
+  "pod": 0.14435695538057744,
+  "pofd": 0.09242618741976893,
+  "pss": 0.051930767960808505,
+  "bias": 0.3333333333333333
+ },
+ "sequia_2026_por_mes": {
+  "2026-01": [
+   12,
+   8,
+   46,
+   50
+  ],
+  "2026-02": [
+   11,
+   10,
+   43,
+   52
+  ],
+  "2026-03": [
+   7,
+   3,
+   38,
+   68
+  ],
+  "2026-04": [
+   3,
+   10,
+   26,
+   77
+  ],
+  "2026-05": [
+   9,
+   9,
+   57,
+   41
+  ],
+  "2026-06": [
+   8,
+   15,
+   31,
+   62
+  ],
+  "2026-07": [
+   2,
+   10,
+   21,
+   83
+  ],
+  "2026-08": [
+   0,
+   2,
+   9,
+   105
+  ],
+  "2026-09": [
+   3,
+   2,
+   42,
+   69
+  ],
+  "2026-10": [
+   0,
+   3,
+   13,
+   100
+  ]
+ },
+ "hindcast_2012_2024_ref": {
+  "prec": 0.7006827164929932,
+  "pod": 0.20101020513349138,
+  "pss": 0.10178447553253843,
+  "ci": {
+   "pss": [
+    0.062301047456212996,
+    0.13657812519139484
+   ],
+   "prec": [
+    0.6306228460401305,
+    0.7786150555728482
+   ]
+  }
+ },
+ "pais": [
+  {
+   "ym": "2025-01",
+   "n_prov": 19,
+   "activa_16": true,
+   "focos": 15562,
+   "mediana": 8148,
+   "evento": true
+  },
+  {
+   "ym": "2025-02",
+   "n_prov": 20,
+   "activa_16": true,
+   "focos": 19679,
+   "mediana": 7874,
+   "evento": true
+  },
+  {
+   "ym": "2025-03",
+   "n_prov": 17,
+   "activa_16": true,
+   "focos": 11336,
+   "mediana": 7340,
+   "evento": true
+  },
+  {
+   "ym": "2025-04",
+   "n_prov": 16,
+   "activa_16": true,
+   "focos": 6553,
+   "mediana": 3780,
+   "evento": true
+  },
+  {
+   "ym": "2025-05",
+   "n_prov": 17,
+   "activa_16": true,
+   "focos": 4204,
+   "mediana": 3698,
+   "evento": true
+  },
+  {
+   "ym": "2025-06",
+   "n_prov": 15,
+   "activa_16": false,
+   "focos": 4261,
+   "mediana": 5953,
+   "evento": false
+  },
+  {
+   "ym": "2025-07",
+   "n_prov": 17,
+   "activa_16": true,
+   "focos": 10329,
+   "mediana": 12616,
+   "evento": false
+  },
+  {
+   "ym": "2025-08",
+   "n_prov": 16,
+   "activa_16": true,
+   "focos": 25692,
+   "mediana": 33876,
+   "evento": false
+  },
+  {
+   "ym": "2025-09",
+   "n_prov": 10,
+   "activa_16": false,
+   "focos": 19031,
+   "mediana": 34002,
+   "evento": false
+  },
+  {
+   "ym": "2025-10",
+   "n_prov": 11,
+   "activa_16": false,
+   "focos": 15562,
+   "mediana": 18744,
+   "evento": false
+  },
+  {
+   "ym": "2025-11",
+   "n_prov": 10,
+   "activa_16": false,
+   "focos": 9057,
+   "mediana": 7614,
+   "evento": true
+  },
+  {
+   "ym": "2025-12",
+   "n_prov": 10,
+   "activa_16": false,
+   "focos": 7359,
+   "mediana": 6079,
+   "evento": true
+  },
+  {
+   "ym": "2026-01",
+   "n_prov": 10,
+   "activa_16": false,
+   "focos": 11270,
+   "mediana": 8148,
+   "evento": true
+  },
+  {
+   "ym": "2026-02",
+   "n_prov": 12,
+   "activa_16": false,
+   "focos": 7215,
+   "mediana": 7874,
+   "evento": false
+  },
+  {
+   "ym": "2026-03",
+   "n_prov": 6,
+   "activa_16": false,
+   "focos": 4756,
+   "mediana": 7340,
+   "evento": false
+  },
+  {
+   "ym": "2026-04",
+   "n_prov": 8,
+   "activa_16": false,
+   "focos": 2102,
+   "mediana": 3780,
+   "evento": false
+  },
+  {
+   "ym": "2026-05",
+   "n_prov": 10,
+   "activa_16": false,
+   "focos": 4496,
+   "mediana": 3698,
+   "evento": true
+  },
+  {
+   "ym": "2026-06",
+   "n_prov": 13,
+   "activa_16": false,
+   "focos": 3409,
+   "mediana": 5953,
+   "evento": false
+  },
+  {
+   "ym": "2026-07",
+   "n_prov": 9,
+   "activa_16": false,
+   "focos": 6508,
+   "mediana": 12616,
+   "evento": false
+  },
+  {
+   "ym": "2026-08",
+   "n_prov": 2,
+   "activa_16": false,
+   "focos": 8084,
+   "mediana": 33876,
+   "evento": false
+  },
+  {
+   "ym": "2026-09",
+   "n_prov": 3,
+   "activa_16": false,
+   "focos": 23386,
+   "mediana": 34002,
+   "evento": false
+  },
+  {
+   "ym": "2026-10",
+   "n_prov": 3,
+   "activa_16": false,
+   "focos": 4967,
+   "mediana": 18744,
+   "evento": false
+  }
+ ],
+ "enso": {
+  "pais_2025": {
+   "ambito": "pais",
+   "anio": 2025,
+   "senal": "directa",
+   "meses": [
+    {
+     "mes": "jul",
+     "fase": "neutral",
+     "focos": 10329,
+     "mediana": 11686.5,
+     "anom": 0.8838403285842639
+    },
+    {
+     "mes": "ago",
+     "fase": "neutral",
+     "focos": 25692,
+     "mediana": 32877.0,
+     "anom": 0.7814581622410804
+    },
+    {
+     "mes": "sep",
+     "fase": "neutral",
+     "focos": 19031,
+     "mediana": 33130.0,
+     "anom": 0.5744340476909146
+    },
+    {
+     "mes": "oct",
+     "fase": "neutral",
+     "focos": 15562,
+     "mediana": 18713.0,
+     "anom": 0.8316143857211564
+    }
+   ],
+   "fase_dominante": "neutral",
+   "anom_obs": 0.8065362739811184,
+   "factor_calibrado": 1.07
+  },
+  "pais_2026": {
+   "ambito": "pais",
+   "anio": 2026,
+   "senal": "directa",
+   "meses": [
+    {
+     "mes": "jul",
+     "fase": "neutral",
+     "focos": 6508,
+     "mediana": 11686.5,
+     "anom": 0.5568818722457537
+    },
+    {
+     "mes": "ago",
+     "fase": "nino",
+     "focos": 8084,
+     "mediana": 32877.0,
+     "anom": 0.24588618182924232
+    },
+    {
+     "mes": "sep",
+     "fase": "nino",
+     "focos": 23386,
+     "mediana": 33130.0,
+     "anom": 0.7058859040144884
+    },
+    {
+     "mes": "oct",
+     "fase": "nino",
+     "focos": 4967,
+     "mediana": 18713.0,
+     "anom": 0.2654304494201892
+    }
+   ],
+   "fase_dominante": "nino",
+   "anom_obs": 0.41115616083297146,
+   "factor_calibrado": 1.03
+  },
+  "NEA_2025": {
+   "ambito": "NEA",
+   "anio": 2025,
+   "senal": "directa",
+   "meses": [
+    {
+     "mes": "jul",
+     "fase": "neutral",
+     "focos": 8379,
+     "mediana": 9400.5,
+     "anom": 0.8913355672570608
+    },
+    {
+     "mes": "ago",
+     "fase": "neutral",
+     "focos": 20660,
+     "mediana": 25047.5,
+     "anom": 0.8248328176464716
+    },
+    {
+     "mes": "sep",
+     "fase": "neutral",
+     "focos": 13194,
+     "mediana": 23403.0,
+     "anom": 0.5637738751442123
+    },
+    {
+     "mes": "oct",
+     "fase": "neutral",
+     "focos": 9168,
+     "mediana": 11983.0,
+     "anom": 0.7650838688141534
+    }
+   ],
+   "fase_dominante": "neutral",
+   "anom_obs": 0.7949583432303124,
+   "factor_calibrado": 1.02
+  },
+  "NEA_2026": {
+   "ambito": "NEA",
+   "anio": 2026,
+   "senal": "directa",
+   "meses": [
+    {
+     "mes": "jul",
+     "fase": "neutral",
+     "focos": 5014,
+     "mediana": 9400.5,
+     "anom": 0.5333758842614754
+    },
+    {
+     "mes": "ago",
+     "fase": "nino",
+     "focos": 5655,
+     "mediana": 25047.5,
+     "anom": 0.22577103503343646
+    },
+    {
+     "mes": "sep",
+     "fase": "nino",
+     "focos": 18121,
+     "mediana": 23403.0,
+     "anom": 0.7743024398581378
+    },
+    {
+     "mes": "oct",
+     "fase": "nino",
+     "focos": 3640,
+     "mediana": 11983.0,
+     "anom": 0.3037636651923558
+    }
+   ],
+   "fase_dominante": "nino",
+   "anom_obs": 0.4185697747269156,
+   "factor_calibrado": 1.02
+  },
+  "NOA_2025": {
+   "ambito": "NOA",
+   "anio": 2025,
+   "senal": "directa",
+   "meses": [
+    {
+     "mes": "ago",
+     "fase": "neutral",
+     "focos": 2347,
+     "mediana": 3873.5,
+     "anom": 0.6059119659222925
+    },
+    {
+     "mes": "sep",
+     "fase": "neutral",
+     "focos": 3744,
+     "mediana": 5124.5,
+     "anom": 0.7306078641818714
+    },
+    {
+     "mes": "oct",
+     "fase": "neutral",
+     "focos": 4358,
+     "mediana": 4175.0,
+     "anom": 1.0438323353293413
+    },
+    {
+     "mes": "nov",
+     "fase": "neutral",
+     "focos": 2597,
+     "mediana": 1901.0,
+     "anom": 1.3661230931088901
+    }
+   ],
+   "fase_dominante": "neutral",
+   "anom_obs": 0.8872200997556063,
+   "factor_calibrado": 1.25
+  },
+  "NOA_2026": {
+   "ambito": "NOA",
+   "anio": 2026,
+   "senal": "directa",
+   "meses": [
+    {
+     "mes": "ago",
+     "fase": "nino",
+     "focos": 835,
+     "mediana": 3873.5,
+     "anom": 0.2155673163805344
+    },
+    {
+     "mes": "sep",
+     "fase": "nino",
+     "focos": 1887,
+     "mediana": 5124.5,
+     "anom": 0.36823104693140796
+    },
+    {
+     "mes": "oct",
+     "fase": "nino",
+     "focos": 545,
+     "mediana": 4175.0,
+     "anom": 0.13053892215568863
+    }
+   ],
+   "fase_dominante": "nino",
+   "anom_obs": 0.2155673163805344,
+   "factor_calibrado": 0.92
+  },
+  "Centro_2025": {
+   "ambito": "Centro",
+   "anio": 2025,
+   "senal": "ninguna",
+   "meses": [
+    {
+     "mes": "ene",
+     "fase": "neutral",
+     "focos": 1613,
+     "mediana": 1798.0,
+     "anom": 0.8971078976640712
+    },
+    {
+     "mes": "ago",
+     "fase": "neutral",
+     "focos": 2113,
+     "mediana": 3515.0,
+     "anom": 0.6011379800853485
+    },
+    {
+     "mes": "sep",
+     "fase": "neutral",
+     "focos": 1505,
+     "mediana": 3020.0,
+     "anom": 0.49834437086092714
+    },
+    {
+     "mes": "oct",
+     "fase": "neutral",
+     "focos": 1531,
+     "mediana": 2198.5,
+     "anom": 0.6963838981123494
+    },
+    {
+     "mes": "dic",
+     "fase": "neutral",
+     "focos": 3698,
+     "mediana": 2135.5,
+     "anom": 1.7316787637555608
+    }
+   ],
+   "fase_dominante": "neutral",
+   "anom_obs": 0.6963838981123494,
+   "factor_calibrado": 1.1
+  },
+  "Centro_2026": {
+   "ambito": "Centro",
+   "anio": 2026,
+   "senal": "ninguna",
+   "meses": [
+    {
+     "mes": "ene",
+     "fase": "nina",
+     "focos": 1402,
+     "mediana": 1798.0,
+     "anom": 0.7797552836484983
+    },
+    {
+     "mes": "ago",
+     "fase": "nino",
+     "focos": 1203,
+     "mediana": 3515.0,
+     "anom": 0.3422475106685633
+    },
+    {
+     "mes": "sep",
+     "fase": "nino",
+     "focos": 2578,
+     "mediana": 3020.0,
+     "anom": 0.8536423841059603
+    },
+    {
+     "mes": "oct",
+     "fase": "nino",
+     "focos": 497,
+     "mediana": 2198.5,
+     "anom": 0.22606322492608596
+    }
+   ],
+   "fase_dominante": "nino",
+   "anom_obs": 0.5610013971585308,
+   "factor_calibrado": 0.86
+  },
+  "Patagonia_2025": {
+   "ambito": "Patagonia",
+   "anio": 2025,
+   "senal": "inversa",
+   "meses": [
+    {
+     "mes": "ene",
+     "fase": "neutral",
+     "focos": 2877,
+     "mediana": 1051.5,
+     "anom": 2.7360912981455066
+    },
+    {
+     "mes": "feb",
+     "fase": "neutral",
+     "focos": 5356,
+     "mediana": 1059.5,
+     "anom": 5.0552147239263805
+    },
+    {
+     "mes": "mar",
+     "fase": "neutral",
+     "focos": 292,
+     "mediana": 762.5,
+     "anom": 0.3829508196721311
+    },
+    {
+     "mes": "dic",
+     "fase": "neutral",
+     "focos": 1313,
+     "mediana": 1154.5,
+     "anom": 1.137288869640537
+    }
+   ],
+   "fase_dominante": "neutral",
+   "anom_obs": 1.9366900838930219,
+   "factor_calibrado": 0.88
+  },
+  "Patagonia_2026": {
+   "ambito": "Patagonia",
+   "anio": 2026,
+   "senal": "inversa",
+   "meses": [
+    {
+     "mes": "ene",
+     "fase": "nina",
+     "focos": 7473,
+     "mediana": 1051.5,
+     "anom": 7.106990014265335
+    },
+    {
+     "mes": "feb",
+     "fase": "nina",
+     "focos": 1636,
+     "mediana": 1059.5,
+     "anom": 1.5441245870693723
+    },
+    {
+     "mes": "mar",
+     "fase": "nina",
+     "focos": 484,
+     "mediana": 762.5,
+     "anom": 0.6347540983606558
+    }
+   ],
+   "fase_dominante": "nina",
+   "anom_obs": 1.5441245870693723,
+   "factor_calibrado": 0.87
+  }
+ }
+}
